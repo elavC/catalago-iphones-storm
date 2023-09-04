@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    background: #141E30;
+    background: -webkit-linear-gradient(to top, #243B55, #141E30);
+    background: linear-gradient(to top, #243B55, #141E30); 
+}
+
+.container .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container .wrapper .smartphone {
+    width: 90%;
+    display: flex;
+    gap: 24px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.container .wrapper .smartphone .img-phone {
+    width: 60px;
+}
+
+.container .wrapper .smartphone .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.container .wrapper .smartphone .description .title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.container .wrapper .smartphone .description .title p:nth-child(2) {
+    color: rgb(205, 205, 205);
+}
+
+.container .wrapper .smartphone .description .title .price {
+    color: #00f908;
+}
+
+.container .wrapper .smartphone .description .title p:nth-child(5) {
+    color: red;
+    font-size: 10px;
+}
+
+.container .wrapper .smartphone h3 {
+    font-size: 12px;
+}
+
+.container .wrapper .smartphone p {
+    font-size: 12px;
+}
+
+.container .wrapper .smartphone .memory {
+    display: flex;
+    gap: 4px;
+}
+
+.container .wrapper .smartphone .memory p {
+    background-color: black;
+    width: 40px;
+    padding: 4px;
+    border-radius: 12px;
+    font-size: 8px;
+    text-align: center;
+}
