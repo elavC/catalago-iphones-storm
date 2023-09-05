@@ -141,19 +141,19 @@ function backImagePurl() {
 
 
 function blackColor() {
-    divBlk.style.display = 'flex';
     divPurl.style.display = 'none';
     divRed.style.display = 'none';
     divWht.style.display = 'none';
+    divBlk.style.display = 'flex';
 
-    nextBtnBlk.style.display = 'flex';
-    backBtnBlk.style.display = 'flex';
     nextBtnPurl.style.display = 'none';
     backBtnPurl.style.display = 'none';
     nextBtnRed.style.display = 'none';
     backBtnRed.style.display = 'none';
     nextBtnWht.style.display = 'none';
     backBtnWht.style.display = 'none';
+    nextBtnBlk.style.display = 'flex';
+    backBtnBlk.style.display = 'flex';
     
     index = 0;
 }
@@ -186,28 +186,28 @@ function redColor() {
     backBtnBlk.style.display = 'none';
     nextBtnPurl.style.display = 'none';
     backBtnPurl.style.display = 'none';
-    nextBtnRed.style.display = 'flex';
-    backBtnRed.style.display = 'flex';
     nextBtnWht.style.display = 'none';
     backBtnWht.style.display = 'none';
+    nextBtnRed.style.display = 'flex';
+    backBtnRed.style.display = 'flex';
     
     index = 0;
 }
 
 function purpleColor() {
     divBlk.style.display = 'none';
-    divPurl.style.display = 'flex';
     divRed.style.display = 'none';
     divWht.style.display = 'none';
+    divPurl.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
     backBtnBlk.style.display = 'none';
-    nextBtnPurl.style.display = 'flex';
-    backBtnPurl.style.display = 'flex';
     nextBtnRed.style.display = 'none';
     backBtnRed.style.display = 'none';
     nextBtnWht.style.display = 'none';
     backBtnWht.style.display = 'none';
+    nextBtnPurl.style.display = 'flex';
+    backBtnPurl.style.display = 'flex';
     
     index = 0;
 }

@@ -140,19 +140,19 @@ function backImageSlv() {
 
 
 function grayColor() {
-    divGray.style.display = 'flex';
     divSlv.style.display = 'none';
     divGreenMid.style.display = 'none';
     divGld.style.display = 'none';
+    divGray.style.display = 'flex';
 
-    nextBtnGray.style.display = 'flex';
-    backBtnGray.style.display = 'flex';
     nextBtnSlv.style.display = 'none';
     backBtnSlv.style.display = 'none';
     nextBtnGreenMid.style.display = 'none';
     backBtnGreenMid.style.display = 'none';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnGray.style.display = 'flex';
+    backBtnGray.style.display = 'flex';
     
     index = 0;
 }
@@ -178,35 +178,35 @@ function goldColor() {
 function greenMidColor() {
     divGray.style.display = 'none';
     divSlv.style.display = 'none';
-    divGreenMid.style.display = 'flex';
     divGld.style.display = 'none';
+    divGreenMid.style.display = 'flex';
 
     nextBtnGray.style.display = 'none';
     backBtnGray.style.display = 'none';
     nextBtnSlv.style.display = 'none';
     backBtnSlv.style.display = 'none';
-    nextBtnGreenMid.style.display = 'flex';
-    backBtnGreenMid.style.display = 'flex';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnGreenMid.style.display = 'flex';
+    backBtnGreenMid.style.display = 'flex';
     
     index = 0;
 }
 
 function SilverColor() {
     divGray.style.display = 'none';
-    divSlv.style.display = 'flex';
     divGreenMid.style.display = 'none';
     divGld.style.display = 'none';
+    divSlv.style.display = 'flex';
 
     nextBtnGray.style.display = 'none';
     backBtnGray.style.display = 'none';
-    nextBtnSlv.style.display = 'flex';
-    backBtnSlv.style.display = 'flex';
     nextBtnGreenMid.style.display = 'none';
     backBtnGreenMid.style.display = 'none';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnSlv.style.display = 'flex';
+    backBtnSlv.style.display = 'flex';
     
     index = 0;
 }

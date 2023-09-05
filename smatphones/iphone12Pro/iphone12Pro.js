@@ -140,19 +140,19 @@ function backImageSlv() {
 
 
 function grayColor() {
-    divGray.style.display = 'flex';
     divSlv.style.display = 'none';
     divBlue.style.display = 'none';
     divGld.style.display = 'none';
+    divGray.style.display = 'flex';
 
-    nextBtnGray.style.display = 'flex';
-    backBtnGray.style.display = 'flex';
     nextBtnSlv.style.display = 'none';
     backBtnSlv.style.display = 'none';
     nextBtnBlue.style.display = 'none';
     backBtnBlue.style.display = 'none';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnGray.style.display = 'flex';
+    backBtnGray.style.display = 'flex';
     
     index = 0;
 }
@@ -178,35 +178,35 @@ function goldColor() {
 function BlueColor() {
     divGray.style.display = 'none';
     divSlv.style.display = 'none';
-    divBlue.style.display = 'flex';
     divGld.style.display = 'none';
+    divBlue.style.display = 'flex';
 
     nextBtnGray.style.display = 'none';
     backBtnGray.style.display = 'none';
     nextBtnSlv.style.display = 'none';
     backBtnSlv.style.display = 'none';
-    nextBtnBlue.style.display = 'flex';
-    backBtnBlue.style.display = 'flex';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnBlue.style.display = 'flex';
+    backBtnBlue.style.display = 'flex';
     
     index = 0;
 }
 
 function SilverColor() {
     divGray.style.display = 'none';
-    divSlv.style.display = 'flex';
     divBlue.style.display = 'none';
     divGld.style.display = 'none';
+    divSlv.style.display = 'flex';
 
     nextBtnGray.style.display = 'none';
     backBtnGray.style.display = 'none';
-    nextBtnSlv.style.display = 'flex';
-    backBtnSlv.style.display = 'flex';
     nextBtnBlue.style.display = 'none';
     backBtnBlue.style.display = 'none';
     nextBtnGld.style.display = 'none';
     backBtnGld.style.display = 'none';
+    nextBtnSlv.style.display = 'flex';
+    backBtnSlv.style.display = 'flex';
     
     index = 0;
 }

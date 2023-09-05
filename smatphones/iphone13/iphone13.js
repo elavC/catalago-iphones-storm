@@ -211,6 +211,7 @@ function blackColor() {
     divRed.style.display = 'none';
     divWht.style.display = 'none';
     divBlue.style.display = 'none';
+    divGreen.style.display = 'none';
     divBlk.style.display = 'flex';
 
     nextBtnRosa.style.display = 'none';
@@ -234,6 +235,7 @@ function whiteColor() {
     divRosa.style.display = 'none';
     divRed.style.display = 'none';
     divBlue.style.display = 'none';
+    divGreen.style.display = 'none';
     divWht.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
@@ -257,6 +259,7 @@ function redColor() {
     divRosa.style.display = 'none';
     divWht.style.display = 'none';
     divBlue.style.display = 'none';
+    divGreen.style.display = 'none';
     divRed.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
@@ -280,6 +283,7 @@ function rosaColor() {
     divRed.style.display = 'none';
     divWht.style.display = 'none';
     divBlue.style.display = 'none';
+    divGreen.style.display = 'none';
     divRosa.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
