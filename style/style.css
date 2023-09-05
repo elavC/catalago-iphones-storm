@@ -15,6 +15,36 @@ a {
     color: white;
 }
 
+.container header {
+    background-color: #141E30;
+    background-image: url(../img/iphone-storm2.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.container .head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;    
+}
+
+.container .head a img  {
+    width: 30px;
+}
+
+.container .head .logo {
+    width: 100px;
+}
+
+.container .head .social {
+    display: flex;
+    gap: 16px;
+}
+
 .container {
     width: 100%;
     background: #141E30;
@@ -25,7 +55,21 @@ a {
 .container .wrapper {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    margin-top: 12px;
+}
+
+.container .wrapper h1 {
+    margin: 24px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container .wrapper a {
+    padding: 12px 0;
+}
+
+.container .wrapper a:nth-child(even) {
+    background-color: #141E30;
 }
 
 .container .wrapper .smartphone {
@@ -63,7 +107,7 @@ a {
 }
 
 .container .wrapper .smartphone .description .title p:nth-child(5) {
-    color: red;
+    color: rgb(0, 251, 255);
     font-size: 10px;
 }
 
