@@ -179,8 +179,10 @@ main {
 .buy {
     position: fixed;
     bottom: 24px;
-    width: 100%;
-    left: 25%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .buy a {
