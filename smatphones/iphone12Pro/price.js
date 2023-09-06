@@ -20,10 +20,10 @@ function setMemory() {
     }
 
     if(memory.value == "128gb") {
-        price.innerHTML = 'R$ 3.750,00';
-        installment6.innerHTML = '06x de 679,50';
-        installment12.innerHTML = '12x de 357,96';
-        installment18.innerHTML = '18x de 249,11';
+        price.innerHTML = 'R$ 3.799,00';
+        installment6.innerHTML = '06x de 679,62';
+        installment12.innerHTML = '12x de 355,41';
+        installment18.innerHTML = '18x de 249,45';
     }
 
     if(memory.value == "256gb") {

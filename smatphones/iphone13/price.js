@@ -20,17 +20,17 @@ function setMemory() {
     }
 
     if(memory.value == "128gb") {
-        price.innerHTML = 'R$ 3.900,00';
-        installment6.innerHTML = '06x de 697,50';
-        installment12.innerHTML = '12x de 364,76';
-        installment18.innerHTML = '18x de 256,02';
+        price.innerHTML = 'R$ 3.950,00';
+        installment6.innerHTML = '06x de R$ 706,44';
+        installment12.innerHTML = '12x de R$ 369,44';
+        installment18.innerHTML = '18x de R$ 259,30';
     }
 
     if(memory.value == "256gb") {
-        price.innerHTML = 'Indisponível';
-        installment6.innerHTML = '';
-        installment12.innerHTML = '';
-        installment18.innerHTML = '';
+        price.innerHTML = 'R$ 4.300,00';
+        installment6.innerHTML = '06x de R$ 769,04';
+        installment12.innerHTML = '12x de R$ 402,17';
+        installment18.innerHTML = '18x de R$ 282,28';
     }
 
     console.log(memory.value)

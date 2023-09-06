@@ -13,10 +13,10 @@ function setMemory() {
     }
     
     if(memory.value == "64gb") {
-        price.innerHTML = 'R$ 3.100,00';
-        installment6.innerHTML = '06x de 561,72';
-        installment12.innerHTML = '12x de 295,92';
-        installment18.innerHTML = '18x de 205,93';
+        price.innerHTML = 'R$ 2.749,00';
+        installment6.innerHTML = '06x de 491,83';
+        installment12.innerHTML = '12x de 257,20';
+        installment18.innerHTML = '18x de 180,52';
     }
 
     if(memory.value == "128gb") {
@@ -27,10 +27,10 @@ function setMemory() {
     }
 
     if(memory.value == "256gb") {
-        price.innerHTML = 'R$ 3.400,00';
-        installment6.innerHTML = '06x de 616,08';
-        installment12.innerHTML = '12x de 324,55';
-        installment18.innerHTML = '18x de 225,86';
+        price.innerHTML = 'R$ 3.200,00';
+        installment6.innerHTML = '06x de 572,31';
+        installment12.innerHTML = '12x de 299,29';
+        installment18.innerHTML = '18x de 210,07';
     }
 
     console.log(memory.value)

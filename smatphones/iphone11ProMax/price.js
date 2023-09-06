@@ -28,9 +28,9 @@ function setMemory() {
 
     if(memory.value == "256gb") {
         price.innerHTML = 'R$ 3.550,00';
-        installment6.innerHTML = '06x de 643,26';
-        installment12.innerHTML = '12x de 338,87';
-        installment18.innerHTML = '18x de 235,83';
+        installment6.innerHTML = '06x de 634,91';
+        installment12.innerHTML = '12x de 332,03';
+        installment18.innerHTML = '18x de 233,83';
     }
 
     console.log(memory.value)

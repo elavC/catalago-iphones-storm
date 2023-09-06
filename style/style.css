@@ -15,6 +15,12 @@ a {
     color: white;
 }
 
+.icon-whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
 .container header {
     background-color: #141E30;
     background-image: url(../img/iphone-storm2.PNG);
@@ -68,7 +74,7 @@ a {
     padding: 12px 0;
 }
 
-.container .wrapper a:nth-child(even) {
+.container .wrapper .card-iphones:nth-child(even) {
     background-color: #141E30;
 }
 
