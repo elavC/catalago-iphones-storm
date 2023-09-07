@@ -1,18 +1,18 @@
 const btnBlkColor = document.getElementById('colorsBlack');
 const btnWhtColor = document.getElementById('colorWhite');
 const btnRedColor = document.getElementById('colorsRed');
-const btnBlueColor = document.getElementById('colorsBlue');
+const btnGoldColor = document.getElementById('colorsGold');
 
 const divBlk = document.getElementById('black');
 const divWht = document.getElementById('white');
 const divRed = document.getElementById('red');
-const divBlue = document.getElementById('blue');
+const divGold = document.getElementById('gold');
 
 
 const imageBlk = document.querySelectorAll('.imageBlk');
 const imageWht = document.querySelectorAll('.imageWht');
 const imageRed = document.querySelectorAll('.imageRed');
-const imageBlue = document.querySelectorAll('.imageBlue');
+const imageGold = document.querySelectorAll('.imageGold');
 
 const nextBtnBlk = document.getElementById('nextBlk');
 const backBtnBlk = document.getElementById('backBlk');
@@ -20,13 +20,13 @@ const nextBtnWht = document.getElementById('nextWht');
 const backBtnWht = document.getElementById('backWht');
 const nextBtnRed = document.getElementById('nextRed');
 const backBtnRed = document.getElementById('backRed');
-const nextBtnBlue = document.getElementById('nextBlue');
-const backBtnBlue = document.getElementById('backBlue');
+const nextBtnGold = document.getElementById('nextGold');
+const backBtnGold = document.getElementById('backGold');
 
 const maxBlk = imageBlk.length;
 const maxWht = imageWht.length;
 const maxRed = imageRed.length;
-const maxBlue = imageBlue.length;
+const maxGold = imageGold.length;
 
 let index = 0;
 
@@ -112,42 +112,42 @@ function backImageRed() {
     imageRed[index].classList.add('selectedRed')
 }
 
-function nextImageBlue() {
-    imageBlue[index].classList.remove('selectedBlue');
+function nextImageGold() {
+    imageGold[index].classList.remove('selectedGold');
 
     index++;
 
-    if(index === maxBlue -1) {
-        nextBtnBlue.style.display = 'none';
+    if(index === maxGold -1) {
+        nextBtnGold.style.display = 'none';
     };
 
-    imageBlue[index].classList.add('selectedBlue');
+    imageGold[index].classList.add('selectedGold');
 }
 
-function backImageBlue() {
-    imageBlue[index].classList.remove('selectedBlue');
+function backImageGold() {
+    imageGold[index].classList.remove('selectedGold');
 
     if (index > 0) {
         index--;
     }
    
     
-    if(index !== maxBlue) {
-        nextBtnBlue.style.display = 'flex';
+    if(index !== maxGold) {
+        nextBtnGold.style.display = 'flex';
     }
 
-    imageBlue[index].classList.add('selectedBlue')
+    imageGold[index].classList.add('selectedGold')
 }
 
 
 function blackColor() {
-    divBlue.style.display = 'none';
+    divGold.style.display = 'none';
     divRed.style.display = 'none';
     divWht.style.display = 'none';
     divBlk.style.display = 'flex';
 
-    nextBtnBlue.style.display = 'none';
-    backBtnBlue.style.display = 'none';
+    nextBtnGold.style.display = 'none';
+    backBtnGold.style.display = 'none';
     nextBtnRed.style.display = 'none';
     backBtnRed.style.display = 'none';
     nextBtnWht.style.display = 'none';
@@ -160,14 +160,14 @@ function blackColor() {
 
 function whiteColor() {
     divBlk.style.display = 'none';
-    divBlue.style.display = 'none';
+    divGold.style.display = 'none';
     divRed.style.display = 'none';
     divWht.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
     backBtnBlk.style.display = 'none';
-    nextBtnBlue.style.display = 'none';
-    backBtnBlue.style.display = 'none';
+    nextBtnGold.style.display = 'none';
+    backBtnGold.style.display = 'none';
     nextBtnRed.style.display = 'none';
     backBtnRed.style.display = 'none';
     nextBtnWht.style.display = 'flex';
@@ -178,14 +178,14 @@ function whiteColor() {
 
 function redColor() {
     divBlk.style.display = 'none';
-    divBlue.style.display = 'none';
+    divGold.style.display = 'none';
     divWht.style.display = 'none';
     divRed.style.display = 'flex';
 
     nextBtnBlk.style.display = 'none';
     backBtnBlk.style.display = 'none';
-    nextBtnBlue.style.display = 'none';
-    backBtnBlue.style.display = 'none';
+    nextBtnGold.style.display = 'none';
+    backBtnGold.style.display = 'none';
     nextBtnWht.style.display = 'none';
     backBtnWht.style.display = 'none';
     nextBtnRed.style.display = 'flex';
@@ -194,11 +194,11 @@ function redColor() {
     index = 0;
 }
 
-function blueColor() {
+function goldColor() {
     divBlk.style.display = 'none';
     divRed.style.display = 'none';
     divWht.style.display = 'none';
-    divBlue.style.display = 'flex';
+    divGold.style.display = 'flex';
     
     nextBtnBlk.style.display = 'none';
     backBtnBlk.style.display = 'none';
@@ -206,8 +206,8 @@ function blueColor() {
     backBtnRed.style.display = 'none';
     nextBtnWht.style.display = 'none';
     backBtnWht.style.display = 'none';
-    nextBtnBlue.style.display = 'flex';
-    backBtnBlue.style.display = 'flex';
+    nextBtnGold.style.display = 'flex';
+    backBtnGold.style.display = 'flex';
     
     index = 0;
 }
@@ -218,10 +218,10 @@ nextBtnWht.addEventListener('click', nextImageWht);
 backBtnWht.addEventListener('click', backImageWht);
 nextBtnRed.addEventListener('click', nextImageRed);
 backBtnRed.addEventListener('click', backImageRed);
-nextBtnBlue.addEventListener('click', nextImageBlue);
-backBtnBlue.addEventListener('click', backImageBlue);
+nextBtnGold.addEventListener('click', nextImageGold);
+backBtnGold.addEventListener('click', backImageGold);
 
 btnBlkColor.addEventListener('click', blackColor);
 btnWhtColor.addEventListener('click', whiteColor);
 btnRedColor.addEventListener('click', redColor);
-btnBlueColor.addEventListener('click', blueColor);
+btnGoldColor.addEventListener('click', goldColor);
