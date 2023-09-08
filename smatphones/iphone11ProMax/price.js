@@ -20,7 +20,7 @@ function setMemory() {
     }
 
     if(memory.value == "128gb") {
-        price.innerHTML = 'R$ Indisponível';
+        price.innerHTML = 'Indisponível';
         installment6.innerHTML = '';
         installment12.innerHTML = '';
         installment18.innerHTML = '';
